@@ -1,3 +1,5 @@
+require 'pry'
+
 class Song
   @@count = 0
   @@genre = []
@@ -15,6 +17,7 @@ class Song
         unless @@artists.include?(artist)
           @@artists << artist
         end
+        binding.pry
     end
     def self.count
       @@count
