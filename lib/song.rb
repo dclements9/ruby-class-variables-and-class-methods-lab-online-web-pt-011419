@@ -26,6 +26,7 @@ class Song
       end
       unique_genre_array
     end
+
     def self.artists
       unique_artist_array = []
       @@artists.each do |artist|
