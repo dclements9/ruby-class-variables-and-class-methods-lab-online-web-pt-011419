@@ -37,8 +37,4 @@ class Song
       unique_artist_array
     end
 
-
-    end
-
-
 end
