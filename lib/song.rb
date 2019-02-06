@@ -22,6 +22,7 @@ class Song
       @@genres.each do |genre|
         unless unique_genre_array.include?(genre)
         unique_genre_array << genre
+        end
       end
       unique_genre_array
     end
