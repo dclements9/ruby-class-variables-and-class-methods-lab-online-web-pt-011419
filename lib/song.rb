@@ -22,6 +22,9 @@ class Song
     def self.genre
       @@genre
     end
+    def self.artist
+      @@artist
+    end
 
 
 end
