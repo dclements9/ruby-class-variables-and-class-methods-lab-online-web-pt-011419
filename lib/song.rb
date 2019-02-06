@@ -18,7 +18,11 @@ class Song
       @@count
     end
     def self.genres
-      @@genres
+      unique_genre_array = []
+      @@genres.each do |genre|
+        unique_genre_array << genre
+      end
+      unique_genre_array
     end
     def self.artists
       @@artists
